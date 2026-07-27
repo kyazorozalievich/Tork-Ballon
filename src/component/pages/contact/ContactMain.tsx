@@ -24,28 +24,30 @@ const ContactMain = () => {
     {
       icon: <LuPhone />,
       title: "Phone",
-      data1: "+90 544 407 77 87",
+      data1: "+90 532 468 13 41",
       data2: "+90 282 255 55 00",
-      href1: "https://wa.me/905444077787",
+      href1: "https://wa.me/905324681341",
       href2: "tel:+902822555500",
     },
     {
       icon: <MdOutlineMailOutline />,
       title: "Email",
-      data1: "gulia@torkas.com",
-      data2: "tork@torkas.com",
-      href1: "mailto:gulia@torkas.com",
-      href2: "mailto:gulia@torkas.com",
+      data1: "tork@torkas.com",
+      data2: "",
+      href1: "mailto:tork@torkas.com",
+      href2: "",
     },
     {
       icon: <IoLocationOutline />,
       title: "Address",
-      data1: "Velikoy OSB 2. Cd. No:2/4F-5 Çerkezköy Turkiye",
-      data2: "Velikoy OSB 2. Cd. No:2/4F-5 Çerkezköy Turkiye",
+      data1:
+        "Address: Mimar Sinan Mah. 101. Cd. Avrupa Sanayi Sitesi No: D/1 Kapakli, Tekirdag 59510 Turkiye",
+      data2:
+        "",
       href1:
-        "https://www.google.com/maps/place/TORK+MEKATRON%C4%B0K+A.%C5%9E./@41.2211855,27.9158235,17z/data=!3m1!4b1!4m6!3m5!1s0x14b4df443e63b8db:0x9643806ad20288db!8m2!3d41.2211855!4d27.9183984!16s%2Fg%2F11j5cb5g5s?hl=ru&entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D",
+        "https://www.google.com/maps/place/Avrupa+Sanayi+Sitesi/@41.2850418,27.9507751,16.84z/data=!4m6!3m5!1s0x14b527be5d4d75a7:0x42cafc0281d22d4e!8m2!3d41.2855908!4d27.9505394!16s%2Fg%2F11hbpxm6bs?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D",
       href2:
-        "https://www.google.com/maps/place/%D0%A7%D0%B5%D1%80%D0%BA%D0%B5%D0%B7%D0%BA%D1%91%D0%B9,+%D0%A2%D0%B5%D0%BA%D0%B8%D1%80%D0%B4%D0%B0%D0%B3,+%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F/@41.2880252,27.9770554,14z/data=!3m1!4b1!4m6!3m5!1s0x14b5278f6fa3be55:0x70963dfacba272b0!8m2!3d41.28236!4d28.00059!16zL20vMGJubXZx?hl=ru&entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D",
+        "",
     },
   ];
 

@@ -122,10 +122,10 @@ const Header = () => {
                     pathname === "/products/filling"
                       ? scss.active
                       : pathname === "/products/station"
-                      ? scss.active
-                      : pathname === "/products/marking"
-                      ? scss.active
-                      : scss.link
+                        ? scss.active
+                        : pathname === "/products/marking"
+                          ? scss.active
+                          : scss.link
                   }
                 >
                   Products <FaAngleDown />
@@ -162,7 +162,7 @@ const Header = () => {
               >
                 Contact
               </Link>
-              <div className={scss.translation}>
+              {/* <div className={scss.translation}>
                 <button>
                   <TbWorld />
                   Language
@@ -182,7 +182,7 @@ const Header = () => {
                     ))}
                   </div>
                 )}
-              </div>
+              </div> */}
             </div>
             <div className={scss.burgerMenu}>
               <button onClick={() => setBurger(true)}>
@@ -211,7 +211,7 @@ const Header = () => {
                             href={item.href}
                             key={index}
                             onClick={() => {
-                              setModalBurger(true), setBurger(false);
+                              (setModalBurger(true), setBurger(false));
                             }}
                           >
                             {item.title}
@@ -245,7 +245,7 @@ const Header = () => {
                   >
                     Contact
                   </Link>
-                  <div className={scss.translation}>
+                  {/* <div className={scss.translation}>
                     <button onClick={() => setLanguageBurger(!languageBurger)}>
                       <span>
                         <TbWorld />
@@ -260,7 +260,7 @@ const Header = () => {
                             className={scss.country}
                             key={idx}
                             onClick={() => {
-                              setlanguageClick(true), setBurger(false);
+                              (setlanguageClick(true), setBurger(false));
                             }}
                           >
                             <Image
@@ -274,7 +274,7 @@ const Header = () => {
                         ))}
                       </div>
                     )}
-                  </div>
+                  </div> */}
                   <button onClick={() => setBurger(false)}>
                     Close <IoClose />
                   </button>
@@ -288,13 +288,13 @@ const Header = () => {
         <div className={scss.icons}>
           <a
             className={scss.whatsapp}
-            onClick={() => window.open("https://wa.me/905444077787")}
+            onClick={() => window.open("https://wa.me/905324681341")}
           >
             <RiWhatsappFill />
           </a>
           <a
             className={scss.email}
-            onClick={() => window.open("mailto:gulia@torkas.com")}
+            onClick={() => window.open("mailto:tork@torkas.com")}
           >
             <MdOutlineMail />
           </a>
@@ -302,18 +302,18 @@ const Header = () => {
       </div>
       <div className={scss.contactList}>
         <Link
-          href="https://www.google.com/maps/place/TORK+MEKATRON%C4%B0K+A.%C5%9E./@41.2211855,27.9158235,17z/data=!3m1!4b1!4m6!3m5!1s0x14b4df443e63b8db:0x9643806ad20288db!8m2!3d41.2211855!4d27.9183984!16s%2Fg%2F11j5cb5g5s?hl=ru&entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/place/Avrupa+Sanayi+Sitesi/@41.2850418,27.9507751,16.84z/data=!4m6!3m5!1s0x14b527be5d4d75a7:0x42cafc0281d22d4e!8m2!3d41.2855908!4d27.9505394!16s%2Fg%2F11hbpxm6bs?entry=ttu&g_ep=EgoyMDI2MDcyMi4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
         >
           <GrMapLocation />
         </Link>
-        <Link href="https://wa.me/905444077787" target="_blank">
+        <Link href="https://wa.me/905324681341" target="_blank">
           <RiWhatsappLine />
         </Link>
         <Link href="tel:+902822555500" target="_blank">
           <LuPhone />
         </Link>
-        <Link href="mailto:gulia@torkas.com" target="_blank">
+        <Link href="mailto:tork@torkas.com" target="_blank">
           <MdOutlineMail />
         </Link>
       </div>
